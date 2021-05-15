@@ -26,4 +26,6 @@ for i in range(n):
 	if _next.lower() =='next':
 		pass
 	else:
-		time.sleep(10000000000)
+		time.sleep(1000000)
+		
+print(pyfiglet.figlet_format(text='Thanks for using ! '))
