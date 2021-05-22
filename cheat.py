@@ -25,6 +25,8 @@ for i in range(n):
 	_next = input(':')
 	if _next.lower() =='next':
 		pass
+	if _next.lower() =='end':
+		break
 	else:
 		time.sleep(1000000)
 		
