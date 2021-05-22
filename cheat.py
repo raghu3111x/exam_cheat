@@ -8,8 +8,8 @@ import time
 
 # for para in doc.paragraphs:
 # 	print(para.text)
-
-pdf_file_object = open('Chemistry.pdf','rb')
+pdf_name = input('Enter the pdf file name: ')
+pdf_file_object = open(pdf_name,'rb')
 pdf_reader = PyPDF2.PdfFileReader(pdf_file_object)
 n = pdf_reader.numPages
 for i in range(n):
